@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23344" started-at="2018-11-24T05:34:55Z" finished-at="2018-11-24T05:35:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23344" started-at="2018-11-24T05:34:55Z" finished-at="2018-11-24T05:35:18Z">
+      <class name="ParameterByDataProvider.ParameterbyDataprovider">
+        <test-method status="PASS" signature="befortest()[pri:0, instance:ParameterByDataProvider.ParameterbyDataprovider@acaea5]" name="befortest" is-config="true" duration-ms="13673" started-at="2018-11-24T11:04:55Z" finished-at="2018-11-24T11:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befortest -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:ParameterByDataProvider.ParameterbyDataprovider@acaea5]" name="testMethod" duration-ms="3296" started-at="2018-11-24T11:05:09Z" data-provider="SearchProvider" finished-at="2018-11-24T11:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guru99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:ParameterByDataProvider.ParameterbyDataprovider@acaea5]" name="testMethod" duration-ms="3164" started-at="2018-11-24T11:05:12Z" data-provider="SearchProvider" finished-at="2018-11-24T11:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:ParameterByDataProvider.ParameterbyDataprovider@acaea5]" name="testMethod" duration-ms="3167" started-at="2018-11-24T11:05:15Z" data-provider="SearchProvider" finished-at="2018-11-24T11:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhupesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- ParameterByDataProvider.ParameterbyDataprovider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
