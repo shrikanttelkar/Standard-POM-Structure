@@ -1,7 +1,6 @@
 package com.ohrm.qa.base;
 
 
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.NoSuchElementException;
@@ -14,7 +13,7 @@ import com.ohrm.qa.util.TestUtil;
 public class TestBase {
 
 	public static WebDriver driver;
-	public static Properties prop;
+	
 	
 public static void initialization(){
 	
